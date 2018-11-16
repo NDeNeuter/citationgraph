@@ -1,6 +1,6 @@
-''Citationgraph''
+# Citationgraph
 
-* Installation
+## Installation
 
 Install conda from https://conda.io/docs/user-guide/install/index.html if you haven’t installed it already.
 
@@ -26,22 +26,22 @@ source activate citationgraph
 depending on your OS.
 
 
-* Dependencies
+# Dependencies
 
-** python 3
-***  beautifulsoup4
-*** requests
-*** lxml
-*** unidecode
+- python 3
+	- beautifulsoup4
+	- requests
+	- lxml
+	- unidecode
 
-* Usage
+# Usage
 
 The included python script can be used to convert paper's IDs (from PubMed, PubMed Central & DOIs) and fetch the following information for a given ID:
-
-# Papers citing and cited by our paper of interest
-# Article metadata available through NCBI's esummary
+1. Papers citing and cited by our paper of interest
+2. Article metadata available through NCBI's esummary
  can be of use
-See //CitationGraph.py// for an example on how to use the script.
+ 
+See _CitationGraph.py_ for an example on how to use the script.
 
 
 # R Google Scholar package
